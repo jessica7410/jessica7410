@@ -1,0 +1,148 @@
+/* settings */
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7em;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+/* this serves as the container of menu */
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+/* educational background */
+img {
+  width: 250px;
+  height: 250px;
+  display: block;
+}
+.p-left {
+  width: 50%;
+  float: left;
+  padding-top: 20px;
+  padding-left: 40px;
+  margin-right: 40px;
+}
+.p-right {
+  padding-top: 20px;
+  float: right;
+}
+.img-left {
+  float: left;
+  padding-top: 30px;
+}
+/* design for menu */
+#navbar {
+  background: #444;
+  color: #f2f3;
+  overflow: auto;
+}
+#navbar a {
+  color: #fff;
+}
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+#navbar ul li {
+  float: left;
+}
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+}
+/* design for myname and motto */
+.my-name {
+  background: url("../images/pexels-kaique-rocha-775201\ \(1\).jpg") no-repeat center center/cover;
+  height: 600px;
+}
+.content {
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+}
+.content h1 {
+  font-family: "Kaushan Script", cursive;
+}
+a.button {
+  display: inline-block;
+  border: 2px solid white;
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px 12px;
+}
+
+/* educational background */
+.edu {
+  margin-bottom: 30px;
+}
+.edu-dashed {
+  margin-top: 20px;
+  border-top: 2px dashed #000;
+}
+.edu h1 {
+  padding-top: 30px;
+  text-align: center;
+}
+
+/* services */
+.triple {
+  float: left;
+  text-align: center;
+}
+.left {
+  float: left;
+  display: block;
+}
+.middle {
+  float: left;
+  margin-left: 140px;
+  display: block;
+}
+.right {
+  float: right;
+  display: block;
+}
+.clr {
+  clear: both;
+}
+
+.para {
+  display: inline-block;
+  
+}
+.pa-left{
+  float:left;
+  margin-left: 70px;
+
+}
+ .pa-middle{
+  float: left;
+  margin-left: 370px;
+}
+ .pa-right{
+  float: right;
+  margin-right: 80px;
+}
